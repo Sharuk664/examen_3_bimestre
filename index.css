@@ -1,0 +1,131 @@
+@import './CSS/bookmar.css';
+@import './CSS/button.css';
+@import './CSS/profile.css';
+@import './CSS/data.css';
+@import './CSS/images.css';
+
+:root {
+    --primary: #310A90;
+    --white: #fff;
+    --gradient: radial-gradient(41.85% 33.13% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--gradient, radial-gradient(41.85% 33.13% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%));
+}
+
+.container {
+    width: 1366px;
+    height: 6126px;
+}
+
+.wrapper {
+    width: 1366px;
+    height: 7052px;
+    flex-shrink: 0;
+    backdrop-filter: blur(20px);
+}
+
+.sections {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coment {
+    display: flex;
+    width: 1100px;
+    padding: 200px 233px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+}
+
+.text__coment {
+    color: var(--primary, #310A90);
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55.012px; /* 161.8% */
+    align-self: stretch;
+}
+
+.text__coment__two {
+    color: var(--primary, #310A90);
+    text-align: center;
+
+    /* Headline 5 */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.832px; /* 161.8% */
+    align-self: stretch;
+}
+
+.link {
+    display: flex;
+    padding: 80px 113px 80px 128px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.link__data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.title__link {
+    display: flex;
+    padding: 4px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--primary, #310A90);
+    box-shadow: -4px 4px 0px 0px #FFF;
+}
+
+.title__link__data {
+    color: var(--white, #FFF);
+
+    /* Headline 4 */
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.012px; /* 161.8% */
+}
+
+.text__link {
+    width: 449px;
+    color: var(--primary, #310A90);
+
+    /* Body 1 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.888px; /* 161.8% */
+    letter-spacing: 0.08px;
+}
+
+.actions {
+    display: flex;
+    padding-top: 8px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
