@@ -1,0 +1,65 @@
+.marvol {
+    display: flex;
+    padding: 80px 128px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.nether {
+    display: flex;
+    padding: 80px 274px 80px 128px;
+    justify-content: center;
+    align-items: center;
+    gap: 213px;
+}
+
+.text__generally {
+    display: flex;
+    width: 448px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.title__generally {
+    display: flex;
+    padding: 4px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--primary, #310A90);
+    box-shadow: -4px 4px 0px 0px #FFF;
+}
+
+.title__text {
+    color: var(--white, #FFF);
+
+    /* Headline 4 */
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.012px; /* 161.8% */
+}
+
+.text__one {
+    color: var(--primary, #310A90);
+
+    /* Body 1 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.888px; /* 161.8% */
+    letter-spacing: 0.08px;
+    align-self: stretch;
+}
+
+.action {
+    display: flex;
+    padding-top: 8px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+

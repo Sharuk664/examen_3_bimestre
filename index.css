@@ -3,6 +3,8 @@
 @import './CSS/profile.css';
 @import './CSS/data.css';
 @import './CSS/images.css';
+@import './CSS/card.css';
+@import './CSS/marvol.css';
 
 :root {
     --primary: #310A90;
@@ -47,6 +49,7 @@ body {
     align-items: center;
     gap: 24px;
     border-radius: 16px;
+    border: 4px solid #FFF;
 }
 
 .text__coment {

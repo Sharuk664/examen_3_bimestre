@@ -4,10 +4,61 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    text-decoration: none;
     border-radius: 4px;
     border: 2px solid var(--primary, #310A90);
     background: var(--primary, #310A90);
+}
+
+.button__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--primary, #310A90);
+}
+
+.button__content__two {
+    display: flex;
+    padding: 13px 24px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.text__button__two {
+    color: var(--primary, #310A90);
+    text-align: center;
+    
+    /* BUTTON */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.652px; /* 161.8% */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+
+.button__content {
+    display: flex;
+    padding: 13px 24px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.text__button {
+    color: var(--white, #FFF);
+    text-align: center;
+    
+    /* BUTTON */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.652px; /* 161.8% */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
 }
 
 .content__button {

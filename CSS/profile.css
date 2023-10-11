@@ -15,6 +15,15 @@
     line-height: 38.832px; /* 161.8% */
 }
 
+.profile__text__two {
+    color: var(--white);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38.832px; /* 161.8% */
+}
+
 .texts {
     display: flex;
     justify-content: center;
